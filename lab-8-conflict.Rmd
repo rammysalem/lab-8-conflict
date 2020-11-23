@@ -1,0 +1,16 @@
+---
+title: "lab-8-conflict"
+author: "Rammy Salem"
+date: "11/23/2020"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+library(tidyverse)
+```
+
+```{r}
+ggplot(data = storms, aes(x = pressure, y = wind)) +
+	geom_hex()
+```
